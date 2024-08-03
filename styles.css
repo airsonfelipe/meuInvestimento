@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.stock-info {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.stock-info img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.stock-info .details {
+    flex: 1;
+}
+
+.stock-info .details h2 {
+    margin: 0 0 10px;
+    color: #555;
+}
+
+.stock-info .details p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.dividends {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.dividends h3 {
+    color: #555;
+}
+
+.dividends table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.dividends table, .dividends th, .dividends td {
+    border: 1px solid #ddd;
+}
+
+.dividends th, .dividends td {
+    padding: 10px;
+    text-align: left;
+}
+
+.dividends th {
+    background-color: #f4f4f4;
+}
